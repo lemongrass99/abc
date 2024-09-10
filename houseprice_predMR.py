@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-data = pd.read_csv("C:\\Users\\vagis\\OneDrive\\Desktop\\vagish\\Datasets\\homeprices_Mul.csv")
+data = pd.read_csv(homeprices csv)
 print(data.info())
 
 
