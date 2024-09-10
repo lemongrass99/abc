@@ -1,5 +1,5 @@
 import pandas as pd
-path = "C:\\Users\\vagis\\OneDrive\\Desktop\\vagish\\Datasets\\Social_Network_Ads.csv"
+path = "social network ads csv"
 data = pd.read_csv(path)
 
 print(data['Gender'].unique())
