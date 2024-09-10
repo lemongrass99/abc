@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-dataset = pd.read_csv("C:\\Users\\vagis\\OneDrive\\Desktop\\vagish\\Datasets\\Iris.csv")
+dataset = pd.read_csv(iris csv)
 x = dataset.iloc[:, [1, 2, 3, 4]].values
 
 from sklearn.cluster import KMeans
